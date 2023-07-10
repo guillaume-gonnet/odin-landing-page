@@ -139,3 +139,40 @@
     font-weight: bold;
     text-align: right;
 }
+
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    align-self: center;
+    flex-basis: content;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color: #E5E7EB;
+    gap: 100px;
+    border-radius: 8px;
+    margin: 50px 180px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-title {
+    font-weight: bold;
+}
+
+.signup-button {
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px 16px;
+    flex-shrink: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
