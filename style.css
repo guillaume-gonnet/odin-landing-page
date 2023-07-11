@@ -52,7 +52,6 @@ body {
     flex: wrap;
     gap: 50px;
     margin: 100px 0px;
-
 }
 
 .awesome-container {
@@ -90,7 +89,6 @@ body {
     display: flex;
     gap: 50px;
     justify-content: center;
-
 }
 
 .square-container {
@@ -116,9 +114,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-
     padding: 100px 250px;
-
 }
 
 .quote-text {
@@ -136,8 +132,6 @@ body {
 .signup {
     background-color: #3882F6;
     display: flex;
-    align-self: center;
-    flex-basis: content;
     flex-grow: 1;
     justify-content: space-between;
     padding: 50px 100px;
@@ -157,11 +151,13 @@ body {
 }
 
 .signup-button {
-    border-color: #E5E7EB;
-    border-style: solid;
+    border: #E5E7EB solid;
+    background-color: #3882F6;
+    color: #E5E7EB;
     border-radius: 8px;
     padding: 8px 16px;
     flex-shrink: 0;
+    align-self: center;
 }
 
 .footer {
